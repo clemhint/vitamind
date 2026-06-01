@@ -30,12 +30,11 @@
       display:flex;
       flex-direction:column;
       align-items:center;
-      padding:0 16px 60px;
+      padding:0 0 60px;
     }
 
     .header-band {
-      width:calc(100% + 32px);
-      margin-left:-16px;
+      width:100%;
       background:var(--kobalt);
       padding:0 32px 0 24px;
       display:flex;
@@ -184,8 +183,7 @@
     <span class="header-title">Vitamin-D-Rechner</span>
   </div>
 
-  <h1>Vitamin-D-Rechner</h1>
-  <p class="page-sub">Berechne deine individuelle Vitamin-D-Auff&uuml;lldauer</p>
+  <div style="padding:0 16px;width:100%;max-width:592px;display:flex;flex-direction:column;align-items:center;">
 
   <div class="card">
     <div class="card-header">
@@ -294,5 +292,6 @@
       wrap.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     });
   </script>
+  </div>
 </body>
 </html>
